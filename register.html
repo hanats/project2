@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Dashboard</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="container-fluid">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand border-dark">
+    <!-- Left navbar links -->
+    <ul class="">
+      <img src="logo-STT-NF-1.png" alt="" height="100" width="100">
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="home.html" class="nav-link border-right">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="" class="nav-link border-right">Berita</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="" class="nav-link border-right">Loker</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="login.html" class="nav-link">Login</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+  <div class="content-wrapper">
+    <div class="text-center pt-5">
+      <h3>Register User</h3>
+      <div>
+        <div class="row justify-content-md-center m-3">
+          <form class="border border-dark p-5">
+            <div class="form-group row">
+              <label for="Carimhs" class="col-4 col-form-label">Cari Alumni</label> 
+              <div class="col-8">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div> 
+                  <input id="Carimhs" name="Carimhs" placeholder="search" type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="Nama" class="col-4 col-form-label">Nama Lengkap</label> 
+              <div class="col-8">
+                <input id="Nama" name="Nama" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="Asal" class="col-4 col-form-label">Asal Prodi</label> 
+              <div class="col-8">
+                <input id="Asal" name="Asal" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="Username" class="col-4 col-form-label">Username</label> 
+              <div class="col-8">
+                <input id="Username" name="Username" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text" class="col-4 col-form-label">Password</label> 
+              <div class="col-8">
+                <input id="pswd" name="pswd" type="password" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text1" class="col-4 col-form-label">Cek Password</label> 
+              <div class="col-8">
+                <input id="pswd1" name="pswd1" type="password" class="form-control">
+              </div>
+            </div> 
+            <div class="form-group row">
+              <div class="offset-4 col-8">
+                <a class="btn btn-primary btn-large" href="alumni.html">Daftar</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>
